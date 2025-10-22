@@ -7,3 +7,20 @@ body {
   background-color: #111827; /* This is Tailwind's gray-900 */
   color: #f9fafb; /* Light text */
 }
+/* Clean default borders & outlines globally */
+* {
+  border: none !important;
+  outline: none !important;
+}
+
+/* Smooth transitions for all UI elements */
+body {
+  background-color: #0f172a;
+  color: #f1f5f9;
+  font-family: "Inter", sans-serif;
+  overflow-x: hidden;
+}
+
+div {
+  border: none !important;
+}

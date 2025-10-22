@@ -1,10 +1,9 @@
-// Local storage key
-const KEY = "focuspulse_v1";
+const KEY = "focuspulse_v2";
 
-// Load saved data or start fresh
+// Load saved data
 export function loadState() {
   const raw = localStorage.getItem(KEY);
-  if (!raw) return { habits: [], logs: {} }; // start empty
+  if (!raw) return { habits: [], logs: {} };
   try {
     return JSON.parse(raw);
   } catch {
@@ -17,7 +16,7 @@ export function saveState(state) {
   localStorage.setItem(KEY, JSON.stringify(state));
 }
 
-// Get today's date key
-export function todayKey(d = new Date()) {
-  return d.toISOString().slice(0, 10); // YYYY-MM-DD
+// Date key for today
+export function todayKey() {
+  return new Date().toISOString().slice(0, 10); // YYYY-MM-DD
 }
