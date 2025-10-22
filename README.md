@@ -1,20 +1,31 @@
-# FocusPulse 🧠⚡
-A minimalist offline **Habit Tracker** built using **React + Vite + TailwindCSS**.
+# 🌟 FocusPulse
 
-## ✨ Features
-- Add and delete habits easily  
-- Saves data offline using localStorage  
-- Dark mode UI  
-- Clean and responsive design  
-- Built with modern React + Tailwind stack
+> Build discipline. Track progress. Stay focused.
 
-## 🛠️ Tech Stack
+### 🚀 Live Demo  
+🔗 **[Visit FocusPulse](https://focuspulse-one.vercel.app)**  
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Jeyxnth/focuspulse)
+
+---
+
+### 🧠 About FocusPulse  
+FocusPulse is a minimalist productivity app that helps you build and track habits.  
+Features include:
+- ⏱️ Live habit timers  
+- 📅 Daily & weekly progress dashboard  
+- 💾 Local data persistence  
+- 🎨 Clean dark UI  
+
+---
+
+### 🛠️ Tech Stack
 - React (Vite)
-- TailwindCSS
-- UUID (for unique habit IDs)
+- Tailwind CSS
+- Framer Motion
 - LocalStorage for persistence
+- Deployed on [Vercel](https://vercel.com)
 
-## 🚀 Run Locally
-```bash
-npm install
-npm run dev
+---
+
+© 2025 **FocusPulse** • Made by [g1anT 🚀](https://github.com/Jeyxnth)
